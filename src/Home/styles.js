@@ -1,23 +1,36 @@
 import { css } from 'glamor';
+// import homeimg from '../Assets/img/background.png'; 
 
-const styles = css({
-    ' .home': {
-        '&__image': {
-            backgroundImage: 'url("https://image.freepik.com/foto-gratis/vista-cerca-coche-concesionario_23-2148130086.jpg")',
-            backgroundRepeat: 'no-repeat',
-            width: '110%',
-            height: '300px',
-            backgroundSize: 'cover',
-            backgroundPosition: 'center',
-            borderRadius: '0px 0px 85% 166px'
-        },
-        '&__cards': {
-            padding: '10px 50px',
-            '&-padding': {
-                padding: '20px 1px'
-            }
-        }
-    }
+const styles = (homeimg) => css({
+    // ' h2': {
+    //     color: '#fff',
+    //     paddingTop: 40
+    // },
+    // ' h3': {
+    //     color: '#6D6D71',
+    //     fontSize: '2em',
+    //     fontWeight: 900,
+    //     lineheight: 38
+    // },
+    // ' .home': {
+    //     '&__image': {
+    //         backgroundImage: `url(${homeimg})`,
+    //         backgroundRepeat: 'no-repeat',
+    //         height: '300px',
+    //         backgroundSize: 'cover',
+    //         backgroundPosition: 'center',
+    //         overflow: 'hidden',
+    //         ' > input:placeholder': {
+    //             color: '#8F9BA6'
+    //         }
+    //     },
+    //     '&__cards': {
+    //         padding: '60px 50px',
+    //         '&-padding': {
+    //             padding: '20px 1px'
+    //         }
+    //     }
+    // }
 });
 
 export default styles;
