@@ -5,7 +5,7 @@ import styles from "./styles";
 const CardItem = props => {
   return (
     <Card {...styles}>
-      <a>
+      <a href="#">
         <Media>
           <Media left href="#">
             <Media object src={props.img} alt="Concesionario" />

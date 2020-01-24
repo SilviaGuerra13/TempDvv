@@ -2,7 +2,15 @@ import { css } from 'glamor';
 
 const styles = css({
     borderRadius: '14px !important',
-    border: 'none !important',
+    cursor: 'pointer',
+    margin: '5px',
+    ' > a': {
+        textDecoration: 'none',
+        color: '#6D6D71',
+    },
+    ' > a:hover': {
+        textDecoration: 'none',
+    },
     ' > div': {
         boxShadow: '0px 4px 15px rgba(172, 180, 188, 0.15)',
         borderRadius: '8px'

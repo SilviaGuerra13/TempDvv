@@ -7,7 +7,6 @@ const styles = (homeimg) => css({
         paddingTop: 40
     },
     ' h3': {
-        color: '#6D6D71',
         fontSize: '2em',
         fontWeight: 900,
         lineheight: 38
@@ -20,12 +19,16 @@ const styles = (homeimg) => css({
             backgroundSize: 'cover',
             backgroundPosition: 'center',
             overflow: 'hidden',
-            ' > input:placeholder': {
-                color: '#8F9BA6'
-            }
+            ' > div > div > h3': {
+                color: '#fff',
+                paddingTop: 35
+            },
         },
         '&__cards': {
             padding: '60px 50px',
+            ' > h3': {
+                color: '#6D6D71',
+            },
             '&-padding': {
                 padding: '20px 1px'
             }
