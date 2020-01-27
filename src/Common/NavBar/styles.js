@@ -41,7 +41,7 @@ const styles = css({
         },
         '&-brand': {
             width: 270,
-            paddingLeft: 40,
+            paddingLeft: 80,
             ' > img': {
                 width: '100%'
             }

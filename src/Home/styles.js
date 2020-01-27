@@ -25,7 +25,7 @@ const styles = (homeimg) => css({
             },
         },
         '&__cards': {
-            padding: '60px 50px',
+            padding: '60px 80px',
             ' > h3': {
                 color: '#6D6D71',
             },
