@@ -1,14 +1,14 @@
 import React from 'react';
 import './App.css';
 import NavBar from './Common/NavBar/NavBar';
-import Home from './Home/Home';
+import Container from './Container';
 import Footer from './Common/Footer/Footer';
 
 function App() {
   return (
     <div className="App">
       <NavBar />
-      <Home />
+      <Container />
       <Footer />
     </div>
   );
