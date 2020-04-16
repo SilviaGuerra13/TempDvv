@@ -37,11 +37,10 @@ const Home = () => {
           <Col sm="6" md="3">
             <Card>
               <CardBody>
-                <CardTitle>Card title</CardTitle>
-                <CardSubtitle>Card subtitle</CardSubtitle>
+                <CardTitle>Shakira</CardTitle>
 								<CardText>
-									Some quick example text to build on the card title and make up
-									the bulk of the card's content.
+									Es una artista colombiana que se presento en el super bowl el pasado bbla bla de febrero.
+                  Agradeceria que se publicara en netlify produccion
 								</CardText>
               </CardBody>
             </Card>
